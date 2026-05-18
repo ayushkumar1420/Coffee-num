@@ -13,11 +13,8 @@ const Navbar = () => {
 
   return (
     <nav className="relative bg-cover bg-center shadow-xl border-4 border-dashed border-amber-500 rounded-xl overflow-hidden">
-
       <div className="absolute inset-0 bg-gradient-to-r from-[#4b3621] to-[#6f4e37] opacity-95" />
-
       <div className="relative max-w-7xl mx-auto px-4 py-5">
-
         <div className="flex justify-between items-center">
 
           {/* Logo */}
@@ -46,18 +43,15 @@ const Navbar = () => {
                 style={{ fontFamily: "Montserrat, sans-serif" }}
               >
                 {label}
-
                 <span className="absolute bottom-0 left-0 w-0 h-[3px] bg-yellow-300 transition-all duration-300 group-hover:w-full" />
-
               </Link>
             ))}
-
           </div>
 
+          {/* button */}
+          
         </div>
-
       </div>
-
     </nav>
   );
 };
